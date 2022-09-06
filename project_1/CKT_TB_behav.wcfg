@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CKT_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CKT_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9,999,990 ps"></ZoomStartTime>
+      <ZoomEndTime time="10,000,003 ps"></ZoomEndTime>
+      <Cursor1Time time="10,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="242"></NameColumnWidth>
+      <ValueColumnWidth column_width="117"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/CKT_TB/T_input1" type="logic">
+      <obj_property name="ElementShortName">T_input1</obj_property>
+      <obj_property name="ObjectShortName">T_input1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CKT_TB/T_input2" type="logic">
+      <obj_property name="ElementShortName">T_input2</obj_property>
+      <obj_property name="ObjectShortName">T_input2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CKT_TB/T_input3" type="logic">
+      <obj_property name="ElementShortName">T_input3</obj_property>
+      <obj_property name="ObjectShortName">T_input3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CKT_TB/T_output" type="logic">
+      <obj_property name="ElementShortName">T_output</obj_property>
+      <obj_property name="ObjectShortName">T_output</obj_property>
+   </wvobject>
+</wave_config>

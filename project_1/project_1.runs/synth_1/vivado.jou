@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Aug 30 20:28:33 2022
+# Process ID: 12328
+# Current directory: C:/study/vlsi/try1/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log comb_ckt.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source comb_ckt.tcl
+# Log file: C:/study/vlsi/try1/project_1/project_1.runs/synth_1/comb_ckt.vds
+# Journal file: C:/study/vlsi/try1/project_1/project_1.runs/synth_1\vivado.jou
+# Running On: DESKTOP-0KTBA50, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16827 MB
+#-----------------------------------------------------------
+source comb_ckt.tcl -notrace
