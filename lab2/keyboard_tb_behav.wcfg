@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="keyboard_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="keyboard_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="479.166 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,104.167 ns"></ZoomEndTime>
+      <Cursor1Time time="690.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="242"></NameColumnWidth>
+      <ValueColumnWidth column_width="117"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/keyboard_tb/T_clk" type="logic">
+      <obj_property name="ElementShortName">T_clk</obj_property>
+      <obj_property name="ObjectShortName">T_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyboard_tb/T_rst_n" type="logic">
+      <obj_property name="ElementShortName">T_rst_n</obj_property>
+      <obj_property name="ObjectShortName">T_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyboard_tb/T_kb_data" type="logic">
+      <obj_property name="ElementShortName">T_kb_data</obj_property>
+      <obj_property name="ObjectShortName">T_kb_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyboard_tb/T_kb_clk" type="logic">
+      <obj_property name="ElementShortName">T_kb_clk</obj_property>
+      <obj_property name="ObjectShortName">T_kb_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyboard_tb/U_keyboard_top/sync_keyboard_inst/kb_clk_sync" type="logic">
+      <obj_property name="ElementShortName">kb_clk_sync</obj_property>
+      <obj_property name="ObjectShortName">kb_clk_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyboard_tb/U_keyboard_top/edge_detector_inst/edge_found" type="logic">
+      <obj_property name="ElementShortName">edge_found</obj_property>
+      <obj_property name="ObjectShortName">edge_found</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyboard_tb/T_kb_sc" type="array">
+      <obj_property name="ElementShortName">T_kb_sc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">T_kb_sc[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyboard_tb/T_kb_num" type="array">
+      <obj_property name="ElementShortName">T_kb_num[7:0]</obj_property>
+      <obj_property name="ObjectShortName">T_kb_num[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyboard_tb/T_kb_seg_en" type="array">
+      <obj_property name="ElementShortName">T_kb_seg_en[3:0]</obj_property>
+      <obj_property name="ObjectShortName">T_kb_seg_en[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyboard_tb/CLOCK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLOCK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyboard_tb/RESET_STOP" type="other">
+      <obj_property name="ElementShortName">RESET_STOP</obj_property>
+      <obj_property name="ObjectShortName">RESET_STOP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyboard_tb/KEYBOARD_CLOCK_PERIOD" type="other">
+      <obj_property name="ElementShortName">KEYBOARD_CLOCK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">KEYBOARD_CLOCK_PERIOD</obj_property>
+   </wvobject>
+</wave_config>

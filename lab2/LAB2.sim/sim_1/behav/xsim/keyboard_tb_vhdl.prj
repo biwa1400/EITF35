@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../LAB2.srcs/sources_1/new/edge_detector.vhd" \
+"../../../../LAB2.srcs/sources_1/new/keyboard_top.vhd" \
+"../../../../LAB2.srcs/sources_1/new/sync_keyboard.vhd" \
+"../../../../LAB2.srcs/sim_1/new/keyboard_tb.vhd" \
+
+# Do not sort compile order
+nosort
