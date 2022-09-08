@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab1.srcs/sources_1/new/stimulus_generator.vhd" \
+"../../../../lab1.srcs/sources_1/new/par2ser.vhd" \
+"../../../../lab1.srcs/sources_1/new/sequence_detector_moore.vhd" \
+"../../../../lab1.srcs/sources_1/new/sequence_detector_mealy.vhd" \
+"../../../../lab1.srcs/sim_1/new/sequence_detector_tb.vhd" \
+
+# Do not sort compile order
+nosort
