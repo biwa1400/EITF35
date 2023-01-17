@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Sep 27 16:43:22 2022
+# Process ID: 4952
+# Current directory: C:/study/vlsi/try1/EITF35/lab2/LAB2.runs/synth_1
+# Command line: vivado.exe -log keyboard_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source keyboard_top.tcl
+# Log file: C:/study/vlsi/try1/EITF35/lab2/LAB2.runs/synth_1/keyboard_top.vds
+# Journal file: C:/study/vlsi/try1/EITF35/lab2/LAB2.runs/synth_1\vivado.jou
+# Running On: DESKTOP-0KTBA50, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16827 MB
+#-----------------------------------------------------------
+source keyboard_top.tcl -notrace

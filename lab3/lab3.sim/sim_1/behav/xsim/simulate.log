@@ -1,0 +1,141 @@
+Time resolution is 1 ps
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /ALU_tb/ALU_init/addr_inst/line__49  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/adder.vhd
+Error: FN_U_MOD_3 result Error
+Time: 100 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 100 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 111 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 111 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 122 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 122 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 133 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 133 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 144 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 144 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 155 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 overflow Error
+Time: 155 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 155 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 276 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 276 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 287 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 287 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 298 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 298 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 309 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 309 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 320 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 320 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 331 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 overflow Error
+Time: 331 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 331 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 452 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 452 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 463 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 463 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 474 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 474 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 485 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 485 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 496 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 496 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 507 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 overflow Error
+Time: 507 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 507 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 628 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 628 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 639 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 639 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 650 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 650 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 661 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 661 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 672 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 672 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 683 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 overflow Error
+Time: 683 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 683 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 804 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 804 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 815 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 815 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 826 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 826 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 837 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 837 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 848 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 848 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 859 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 overflow Error
+Time: 859 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 859 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 980 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 980 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 result Error
+Time: 991 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd
+Error: FN_U_MOD_3 sign Error
+Time: 991 ns  Iteration: 0  Process: /ALU_tb/line__63  File: C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sim_1/new/ALU_tb.vhd

@@ -1,0 +1,319 @@
+
+*** Running vivado
+    with args -log ALU_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU_top.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source ALU_top.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/utils_1/imports/synth_1/ALU_top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/utils_1/imports/synth_1/ALU_top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top ALU_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12828
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1294.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ALU_top' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_top.vhd:26]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_components.vhd:57' bound to instance 'debouncer_Enter_key' of component 'debouncer' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_top.vhd:128]
+INFO: [Synth 8-638] synthesizing module 'debouncer' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_components.vhd:65]
+INFO: [Synth 8-256] done synthesizing module 'debouncer' (0#1) [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_components.vhd:65]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_components.vhd:57' bound to instance 'debouncer_Sign_key' of component 'debouncer' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_top.vhd:135]
+INFO: [Synth 8-3491] module 'ALU_ctrl' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_ctrl.vhd:8' bound to instance 'ALU_ctrl_inst' of component 'ALU_ctrl' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_top.vhd:142]
+INFO: [Synth 8-638] synthesizing module 'ALU_ctrl' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_ctrl.vhd:18]
+INFO: [Synth 8-3491] module 'edge_detector' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/edge_detector.vhd:6' bound to instance 'enter_rise_detector' of component 'edge_detector' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_ctrl.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'edge_detector' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/edge_detector.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'edge_detector' (0#1) [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/edge_detector.vhd:17]
+INFO: [Synth 8-3491] module 'edge_detector' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/edge_detector.vhd:6' bound to instance 'sign_rise_detector' of component 'edge_detector' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_ctrl.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'ALU_ctrl' (0#1) [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_ctrl.vhd:18]
+INFO: [Synth 8-3491] module 'regUpdate' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/regUpdate.vhd:5' bound to instance 'reg_A_B' of component 'regUpdate' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_top.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'regUpdate' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/regUpdate.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'regUpdate' (0#1) [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/regUpdate.vhd:15]
+INFO: [Synth 8-3491] module 'ALU' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU.vhd:10' bound to instance 'ALU_inst' of component 'ALU' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_top.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU.vhd:20]
+INFO: [Synth 8-3491] module 'adder' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/adder.vhd:35' bound to instance 'addr_inst' of component 'adder' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'adder' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/adder.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'adder' (0#1) [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/adder.vhd:45]
+INFO: [Synth 8-3491] module 'mod3' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3.vhd:35' bound to instance 'mod3_inst' of component 'mod3' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'mod3' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3.vhd:42]
+INFO: [Synth 8-3491] module 'mod3_sub' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3_sub.vhd:35' bound to instance 'mod3_unit0' of component 'mod3_sub' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'mod3_sub' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3_sub.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'mod3_sub' (0#1) [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3_sub.vhd:43]
+INFO: [Synth 8-3491] module 'mod3_sub' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3_sub.vhd:35' bound to instance 'mod3_unit1' of component 'mod3_sub' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3.vhd:58]
+INFO: [Synth 8-3491] module 'mod3_sub' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3_sub.vhd:35' bound to instance 'mod3_unit2' of component 'mod3_sub' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3.vhd:64]
+INFO: [Synth 8-3491] module 'mod3_sub' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3_sub.vhd:35' bound to instance 'mod3_unit3' of component 'mod3_sub' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3.vhd:70]
+INFO: [Synth 8-3491] module 'mod3_sub' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3_sub.vhd:35' bound to instance 'mod3_unit4' of component 'mod3_sub' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3.vhd:76]
+INFO: [Synth 8-3491] module 'mod3_sub' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3_sub.vhd:35' bound to instance 'mod3_unit5' of component 'mod3_sub' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3.vhd:82]
+INFO: [Synth 8-3491] module 'mod3_sub' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3_sub.vhd:35' bound to instance 'mod3_unit6' of component 'mod3_sub' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'mod3' (0#1) [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/mod3.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (0#1) [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU.vhd:20]
+INFO: [Synth 8-3491] module 'alu_data_convert' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/alu_data_convert.vhd:34' bound to instance 'alu_data_convert_inst' of component 'alu_data_convert' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_top.vhd:173]
+INFO: [Synth 8-638] synthesizing module 'alu_data_convert' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/alu_data_convert.vhd:46]
+INFO: [Synth 8-3491] module 'binary2BCD' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/binary2BCD.vhd:7' bound to instance 'binary2BCD_inst' of component 'binary2BCD' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/alu_data_convert.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'binary2BCD' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/binary2BCD.vhd:13]
+INFO: [Synth 8-3491] module 'adder3' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/adder3.vhd:25' bound to instance 'add1' of component 'adder3' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/binary2BCD.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'adder3' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/adder3.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'adder3' (0#1) [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/adder3.vhd:32]
+INFO: [Synth 8-3491] module 'adder3' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/adder3.vhd:25' bound to instance 'add2' of component 'adder3' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/binary2BCD.vhd:43]
+INFO: [Synth 8-3491] module 'adder3' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/adder3.vhd:25' bound to instance 'add3' of component 'adder3' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/binary2BCD.vhd:50]
+INFO: [Synth 8-3491] module 'adder3' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/adder3.vhd:25' bound to instance 'add4' of component 'adder3' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/binary2BCD.vhd:57]
+INFO: [Synth 8-3491] module 'adder3' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/adder3.vhd:25' bound to instance 'add5' of component 'adder3' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/binary2BCD.vhd:64]
+INFO: [Synth 8-3491] module 'adder3' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/adder3.vhd:25' bound to instance 'add6' of component 'adder3' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/binary2BCD.vhd:71]
+INFO: [Synth 8-3491] module 'adder3' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/adder3.vhd:25' bound to instance 'add7' of component 'adder3' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/binary2BCD.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'binary2BCD' (0#1) [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/binary2BCD.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'alu_data_convert' (0#1) [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/alu_data_convert.vhd:46]
+INFO: [Synth 8-3491] module 'segment_driver' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/segment_driver.vhd:17' bound to instance 'segment_driver_inst' of component 'segment_driver' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_top.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'segment_driver' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/segment_driver.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'segment_driver' (0#1) [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/segment_driver.vhd:32]
+INFO: [Synth 8-3491] module 'alu_state_led' declared at 'C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/alu_state_led.vhd:37' bound to instance 'alu_state_led_inst' of component 'alu_state_led' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_top.vhd:197]
+INFO: [Synth 8-638] synthesizing module 'alu_state_led' [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/alu_state_led.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'alu_state_led' (0#1) [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/alu_state_led.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'ALU_top' (0#1) [C:/study/vlsi/try1/EITF35/lab3/lab3.srcs/sources_1/new/ALU_top.vhd:26]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1294.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1294.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1294.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1294.891 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/study/vlsi/try1/EITF35/lab3/alu_top.xdc]
+Finished Parsing XDC File [C:/study/vlsi/try1/EITF35/lab3/alu_top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/study/vlsi/try1/EITF35/lab3/alu_top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ALU_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ALU_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1294.891 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1294.891 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1294.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1294.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1294.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'ALU_ctrl'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'segment_driver'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               s_input_a |                       0000000001 |                             0000
+        s_input_a_signed |                       0000000010 |                             0010
+        s_input_b_signed |                       0000000100 |                             0011
+               s_input_b |                       0000001000 |                             0001
+             s_u_a_add_b |                       0000010000 |                             0100
+             s_s_a_add_b |                       0000100000 |                             0111
+             s_s_a_sub_b |                       0001000000 |                             1000
+             s_u_a_sub_b |                       0010000000 |                             0101
+             s_u_a_mod_3 |                       0100000000 |                             0110
+             s_s_a_mod_3 |                       1000000000 |                             1001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'ALU_ctrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                     s_0 |                               00 |                               00
+                     s_1 |                               01 |                               01
+                     s_2 |                               10 |                               10
+                     s_3 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'segment_driver'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1294.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 4     
+	   3 Input    8 Bit       Adders := 7     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	  10 Input   10 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 20    
+	   2 Input    8 Bit        Muxes := 12    
+	  11 Input    8 Bit        Muxes := 4     
+	   6 Input    8 Bit        Muxes := 1     
+	  10 Input    4 Bit        Muxes := 1     
+	   3 Input    4 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 2     
+	  11 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	  10 Input    1 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 2     
+	  11 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1294.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1294.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1309.785 ; gain = 14.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1318.832 ; gain = 23.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1323.719 ; gain = 28.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1323.719 ; gain = 28.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1323.719 ; gain = 28.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1323.719 ; gain = 28.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1323.719 ; gain = 28.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1323.719 ; gain = 28.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    14|
+|3     |LUT1   |     3|
+|4     |LUT2   |    24|
+|5     |LUT3   |    14|
+|6     |LUT4   |    21|
+|7     |LUT5   |    38|
+|8     |LUT6   |    71|
+|9     |FDCE   |    49|
+|10    |FDPE   |     1|
+|11    |FDRE   |    24|
+|12    |IBUF   |    12|
+|13    |OBUF   |    18|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1323.719 ; gain = 28.828
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1323.719 ; gain = 28.828
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1323.719 ; gain = 28.828
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1335.793 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1344.422 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: e19ae4c0
+INFO: [Common 17-83] Releasing license: Synthesis
+80 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1344.422 ; gain = 49.531
+INFO: [Common 17-1381] The checkpoint 'C:/study/vlsi/try1/EITF35/lab3/lab3.runs/synth_1/ALU_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ALU_top_utilization_synth.rpt -pb ALU_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 11 17:17:53 2022...

@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/CONV_TOP.vhd" \
+"../../../../lab4.srcs/sources_1/imports/CNN/Convolution/Controller_Imp/behav_vhdl/Controller_impl.vhd" \
+"../../../../lab4.srcs/sources_1/imports/CNN/FC/behav_vhdl/FC.vhd" \
+"../../../../lab4.srcs/sources_1/imports/CNN/Convolution/PE_Top/behav_vhdl/PE.VHD" \
+"../../../../lab4.srcs/sources_1/imports/CNN/pooling/behav_vhdl/Pooling.vhd" \
+"../../../../lab4.srcs/sources_1/imports/CNN/Convolution/RAM_IP_src/RAM_IP_TOP.vhd" \
+"../../../../lab4.srcs/sources_1/imports/CNN/Convolution/RELU_Conv_Activation/behav_vhdl/RELU.vhd" \
+"../../../../lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/TOP.vhd" \
+"../../../../lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/Top_Initialize.vhd" \
+"../../../../lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/Top_Top.vhd" \
+"../../../../lab4.srcs/sources_1/imports/CNN/Convolution/Accumulator/behav_vhdl/accumulator.vhd" \
+"../../../../lab4.srcs/sources_1/imports/CNN/TB/tb_TOP_TOP.vhd" \
+
+# Do not sort compile order
+nosort

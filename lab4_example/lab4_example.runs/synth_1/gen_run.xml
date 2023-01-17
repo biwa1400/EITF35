@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1664027418">
+  <File Type="PA-TCL" Name="tb_TOP_TOP.tcl"/>
+  <File Type="REPORTS-TCL" Name="tb_TOP_TOP_reports.tcl"/>
+  <File Type="RDS-RDS" Name="tb_TOP_TOP.vds"/>
+  <File Type="RDS-DCP" Name="tb_TOP_TOP.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/Convolution/PE_Top/edif_to_ip/src/PE.edif">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/Convolution/PE_Top/edif_to_ip/src/PE.edif"/>
+        <Attr Name="ImportTime" Val="1539675970"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/Convolution/Top_src_vhd/CONV_TOP.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/Convolution/Top_src_vhd/CONV_TOP.vhd"/>
+        <Attr Name="ImportTime" Val="1570443540"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/Convolution/Controller_Imp/behav_vhdl/Controller_impl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/Convolution/Controller_Imp/behav_vhdl/Controller_impl.vhd"/>
+        <Attr Name="ImportTime" Val="1539675968"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/FC/behav_vhdl/FC.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/FC/behav_vhdl/FC.vhd"/>
+        <Attr Name="ImportTime" Val="1539675678"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/Convolution/PE_Top/behav_vhdl/PE.VHD">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/Convolution/PE_Top/behav_vhdl/PE.VHD"/>
+        <Attr Name="ImportTime" Val="1539675968"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/pooling/behav_vhdl/Pooling.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/pooling/behav_vhdl/Pooling.vhd"/>
+        <Attr Name="ImportTime" Val="1539675966"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/Convolution/RAM_IP_src/RAM_IP_TOP.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/Convolution/RAM_IP_src/RAM_IP_TOP.vhd"/>
+        <Attr Name="ImportTime" Val="1539675678"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/Convolution/RELU_Conv_Activation/behav_vhdl/RELU.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/Convolution/RELU_Conv_Activation/behav_vhdl/RELU.vhd"/>
+        <Attr Name="ImportTime" Val="1539675968"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/Convolution/Top_src_vhd/TOP.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/Convolution/Top_src_vhd/TOP.vhd"/>
+        <Attr Name="ImportTime" Val="1539675678"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/Convolution/Top_src_vhd/Top_Initialize.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/Convolution/Top_src_vhd/Top_Initialize.vhd"/>
+        <Attr Name="ImportTime" Val="1539675678"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/Convolution/Top_src_vhd/Top_Top.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/Convolution/Top_src_vhd/Top_Top.vhd"/>
+        <Attr Name="ImportTime" Val="1539675678"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/Convolution/Accumulator/behav_vhdl/accumulator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/Convolution/Accumulator/behav_vhdl/accumulator.vhd"/>
+        <Attr Name="ImportTime" Val="1539675966"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/TB/tb_TOP_TOP.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/TB/tb_TOP_TOP.vhd"/>
+        <Attr Name="ImportTime" Val="1570443020"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/pooling/edif_to_ip/src/pooling.edif">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/pooling/edif_to_ip/src/pooling.edif"/>
+        <Attr Name="ImportTime" Val="1539675970"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/Convolution/Accumulator/edif_to_ip/src/accumulator.edif">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/Convolution/Accumulator/edif_to_ip/src/accumulator.edif"/>
+        <Attr Name="ImportTime" Val="1539675970"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/FC/edif_to_ip/src/FC.edif">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/FC/edif_to_ip/src/FC.edif"/>
+        <Attr Name="ImportTime" Val="1539675970"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CNN/Convolution/Controller_Imp/edif_to_ip/src/Controller_impl.edif">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/bin/Downloads/lab4/CNN/CNN/Convolution/Controller_Imp/edif_to_ip/src/Controller_impl.edif"/>
+        <Attr Name="ImportTime" Val="1539675970"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../Users/bin/Downloads/lab4/Lab4_5_MATLAB_/MATLAB/mem_init_data.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../Users/bin/Downloads/lab4/Lab4_5_MATLAB_/MATLAB/img_00021.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="tb_TOP_TOP"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_0"/>
+</GenRun>

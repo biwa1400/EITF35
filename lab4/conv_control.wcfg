@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_TOP_TOP_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_TOP_TOP" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="25.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="181.000001 us"></ZoomEndTime>
+      <Cursor1Time time="155.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="346"></NameColumnWidth>
+      <ValueColumnWidth column_width="169"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wave_markers>
+      <marker time="131000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_TOP_TOP/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP_TOP/uut1/start_ext" type="logic">
+      <obj_property name="ElementShortName">start_ext</obj_property>
+      <obj_property name="ObjectShortName">start_ext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP_TOP/uut1/valid_output_ext" type="logic">
+      <obj_property name="ElementShortName">valid_output_ext</obj_property>
+      <obj_property name="ObjectShortName">valid_output_ext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP_TOP/uut1/output_ext_dabin" type="array">
+      <obj_property name="ElementShortName">output_ext_dabin[0:0]</obj_property>
+      <obj_property name="ObjectShortName">output_ext_dabin[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP_TOP/uut1/valid_output_ext_dabin" type="logic">
+      <obj_property name="ElementShortName">valid_output_ext_dabin</obj_property>
+      <obj_property name="ObjectShortName">valid_output_ext_dabin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP_TOP/output_ext" type="array">
+      <obj_property name="ElementShortName">output_ext[0:0]</obj_property>
+      <obj_property name="ObjectShortName">output_ext[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group125" type="group">
+      <obj_property name="label">example</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group126" type="group">
+      <obj_property name="label">DABIN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/data_1" type="array">
+         <obj_property name="ElementShortName">data_1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">data_1[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/data_2" type="array">
+         <obj_property name="ElementShortName">data_2[63:0]</obj_property>
+         <obj_property name="ObjectShortName">data_2[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/data_3" type="array">
+         <obj_property name="ElementShortName">data_3[63:0]</obj_property>
+         <obj_property name="ObjectShortName">data_3[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/data_4" type="array">
+         <obj_property name="ElementShortName">data_4[63:0]</obj_property>
+         <obj_property name="ObjectShortName">data_4[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/address_1" type="array">
+         <obj_property name="ElementShortName">address_1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">address_1[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/address_2" type="array">
+         <obj_property name="ElementShortName">address_2[3:0]</obj_property>
+         <obj_property name="ObjectShortName">address_2[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/address_3" type="array">
+         <obj_property name="ElementShortName">address_3[3:0]</obj_property>
+         <obj_property name="ObjectShortName">address_3[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/address_4" type="array">
+         <obj_property name="ElementShortName">address_4[3:0]</obj_property>
+         <obj_property name="ObjectShortName">address_4[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/csn_1" type="logic">
+         <obj_property name="ElementShortName">csn_1</obj_property>
+         <obj_property name="ObjectShortName">csn_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/csn_2" type="logic">
+         <obj_property name="ElementShortName">csn_2</obj_property>
+         <obj_property name="ObjectShortName">csn_2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/csn_3" type="logic">
+         <obj_property name="ElementShortName">csn_3</obj_property>
+         <obj_property name="ObjectShortName">csn_3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/csn_4" type="logic">
+         <obj_property name="ElementShortName">csn_4</obj_property>
+         <obj_property name="ObjectShortName">csn_4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/wen_1" type="logic">
+         <obj_property name="ElementShortName">wen_1</obj_property>
+         <obj_property name="ObjectShortName">wen_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/wen_2" type="logic">
+         <obj_property name="ElementShortName">wen_2</obj_property>
+         <obj_property name="ObjectShortName">wen_2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/wen_3" type="logic">
+         <obj_property name="ElementShortName">wen_3</obj_property>
+         <obj_property name="ObjectShortName">wen_3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/wen_4" type="logic">
+         <obj_property name="ElementShortName">wen_4</obj_property>
+         <obj_property name="ObjectShortName">wen_4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/finish" type="logic">
+         <obj_property name="ElementShortName">finish</obj_property>
+         <obj_property name="ObjectShortName">finish</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/count_def" type="array">
+         <obj_property name="ElementShortName">count_def[1:0]</obj_property>
+         <obj_property name="ObjectShortName">count_def[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Controller_inst_dabin/count_PE" type="array">
+         <obj_property name="ElementShortName">count_PE[7:0]</obj_property>
+         <obj_property name="ObjectShortName">count_PE[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

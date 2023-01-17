@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_TOP_TOP_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_TOP_TOP" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="939.300 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,807.301 ns"></ZoomEndTime>
+      <Cursor1Time time="1,335.100 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="213"></NameColumnWidth>
+      <ValueColumnWidth column_width="59"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wave_markers>
+      <marker time="117665100" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_TOP_TOP/uut1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP_TOP/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP_TOP/uut1/start_ext" type="logic">
+      <obj_property name="ElementShortName">start_ext</obj_property>
+      <obj_property name="ObjectShortName">start_ext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP_TOP/uut1/valid_output_ext" type="logic">
+      <obj_property name="ElementShortName">valid_output_ext</obj_property>
+      <obj_property name="ObjectShortName">valid_output_ext</obj_property>
+   </wvobject>
+   <wvobject fp_name="group125" type="group">
+      <obj_property name="label">example</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/Pooling_inst/ofmap_RELU" type="array">
+         <obj_property name="ElementShortName">ofmap_RELU[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ofmap_RELU[3:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/Pooling_inst/valid_data" type="logic">
+         <obj_property name="ElementShortName">valid_data</obj_property>
+         <obj_property name="ObjectShortName">valid_data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/Pooling_inst/pooling_out" type="array">
+         <obj_property name="ElementShortName">pooling_out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">pooling_out[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/Pooling_inst/valid_pooling" type="logic">
+         <obj_property name="ElementShortName">valid_pooling</obj_property>
+         <obj_property name="ObjectShortName">valid_pooling</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group126" type="group">
+      <obj_property name="label">DABIN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/Pooling_DABIN_inst/h_cnt_current" type="array">
+         <obj_property name="ElementShortName">h_cnt_current[5:0]</obj_property>
+         <obj_property name="ObjectShortName">h_cnt_current[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/Pooling_DABIN_inst/v_cnt_current" type="array">
+         <obj_property name="ElementShortName">v_cnt_current[5:0]</obj_property>
+         <obj_property name="ObjectShortName">v_cnt_current[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/Pooling_DABIN_inst/max_value_current" type="array">
+         <obj_property name="ElementShortName">max_value_current[3:0]</obj_property>
+         <obj_property name="ObjectShortName">max_value_current[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/Pooling_DABIN_inst/valid_pooling" type="logic">
+         <obj_property name="ElementShortName">valid_pooling</obj_property>
+         <obj_property name="ObjectShortName">valid_pooling</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/Pooling_DABIN_inst/max_buf_current" type="array">
+         <obj_property name="ElementShortName">max_buf_current[239:0]</obj_property>
+         <obj_property name="ObjectShortName">max_buf_current[239:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

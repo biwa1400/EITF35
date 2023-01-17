@@ -1,0 +1,352 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Sep 24 15:50:20 2022
+# Process ID: 1904
+# Current directory: C:/study/vlsi/try1/EITF35/lab4/lab4.runs/synth_1
+# Command line: vivado.exe -log tb_TOP_TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_TOP_TOP.tcl
+# Log file: C:/study/vlsi/try1/EITF35/lab4/lab4.runs/synth_1/tb_TOP_TOP.vds
+# Journal file: C:/study/vlsi/try1/EITF35/lab4/lab4.runs/synth_1\vivado.jou
+# Running On: DESKTOP-0KTBA50, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16827 MB
+#-----------------------------------------------------------
+source tb_TOP_TOP.tcl -notrace
+Command: synth_design -top tb_TOP_TOP -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12404
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1294.137 ; gain = 0.000
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-5832] source file was generated for simulation and is not permitted as input to synthesis [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Controller_Imp/behav_vhdl/Controller_impl.vhd:41]
+ERROR: [Synth 8-5832] source file was generated for simulation and is not permitted as input to synthesis [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/FC/behav_vhdl/FC.vhd:9215]
+ERROR: [Synth 8-5832] source file was generated for simulation and is not permitted as input to synthesis [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/PE_Top/behav_vhdl/PE.VHD:10639]
+ERROR: [Synth 8-5832] source file was generated for simulation and is not permitted as input to synthesis [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/pooling/behav_vhdl/Pooling.vhd:2476]
+ERROR: [Synth 8-5832] source file was generated for simulation and is not permitted as input to synthesis [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/RELU_Conv_Activation/behav_vhdl/RELU.vhd:22]
+ERROR: [Synth 8-5832] source file was generated for simulation and is not permitted as input to synthesis [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Accumulator/behav_vhdl/accumulator.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'tb_TOP_TOP' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/TB/tb_TOP_TOP.vhd:10]
+INFO: [Synth 8-3491] module 'Top_Top' declared at 'C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/Top_Top.vhd:29' bound to instance 'uut1' of component 'TOP_TOP' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/TB/tb_TOP_TOP.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'Top_Top' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/Top_Top.vhd:40]
+INFO: [Synth 8-3491] module 'TOP' declared at 'C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/TOP.vhd:30' bound to instance 'inst_TOP' of component 'TOP' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/Top_Top.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'TOP' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/TOP.vhd:46]
+INFO: [Synth 8-3491] module 'CONV_TOP' declared at 'C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/CONV_TOP.vhd:30' bound to instance 'CONV_TOP_inst' of component 'CONV_TOP' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/TOP.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'CONV_TOP' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/CONV_TOP.vhd:42]
+INFO: [Synth 8-637] synthesizing blackbox instance 'Controller_inst' of component 'CONV_Controller' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/CONV_TOP.vhd:169]
+INFO: [Synth 8-3491] module 'RAM_IP_TOP' declared at 'C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/RAM_IP_src/RAM_IP_TOP.vhd:27' bound to instance 'RAM_inst' of component 'RAM_IP_TOP' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/CONV_TOP.vhd:195]
+INFO: [Synth 8-638] synthesizing module 'RAM_IP_TOP' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/RAM_IP_src/RAM_IP_TOP.vhd:54]
+INFO: [Synth 8-3491] module 'dist_mem_gen_0' declared at 'C:/study/vlsi/try1/EITF35/lab4/lab4.runs/synth_1/.Xil/Vivado-1904-DESKTOP-0KTBA50/realtime/dist_mem_gen_0_stub.v:5' bound to instance 'RAM_1_inst' of component 'dist_mem_gen_0' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/RAM_IP_src/RAM_IP_TOP.vhd:70]
+INFO: [Synth 8-6157] synthesizing module 'dist_mem_gen_0' [C:/study/vlsi/try1/EITF35/lab4/lab4.runs/synth_1/.Xil/Vivado-1904-DESKTOP-0KTBA50/realtime/dist_mem_gen_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dist_mem_gen_0' (0#1) [C:/study/vlsi/try1/EITF35/lab4/lab4.runs/synth_1/.Xil/Vivado-1904-DESKTOP-0KTBA50/realtime/dist_mem_gen_0_stub.v:5]
+INFO: [Synth 8-3491] module 'dist_mem_gen_0' declared at 'C:/study/vlsi/try1/EITF35/lab4/lab4.runs/synth_1/.Xil/Vivado-1904-DESKTOP-0KTBA50/realtime/dist_mem_gen_0_stub.v:5' bound to instance 'RAM_2_inst' of component 'dist_mem_gen_0' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/RAM_IP_src/RAM_IP_TOP.vhd:79]
+INFO: [Synth 8-3491] module 'dist_mem_gen_0' declared at 'C:/study/vlsi/try1/EITF35/lab4/lab4.runs/synth_1/.Xil/Vivado-1904-DESKTOP-0KTBA50/realtime/dist_mem_gen_0_stub.v:5' bound to instance 'RAM_3_inst' of component 'dist_mem_gen_0' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/RAM_IP_src/RAM_IP_TOP.vhd:88]
+INFO: [Synth 8-3491] module 'dist_mem_gen_0' declared at 'C:/study/vlsi/try1/EITF35/lab4/lab4.runs/synth_1/.Xil/Vivado-1904-DESKTOP-0KTBA50/realtime/dist_mem_gen_0_stub.v:5' bound to instance 'RAM_4_inst' of component 'dist_mem_gen_0' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/RAM_IP_src/RAM_IP_TOP.vhd:97]
+INFO: [Synth 8-256] done synthesizing module 'RAM_IP_TOP' (0#1) [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/RAM_IP_src/RAM_IP_TOP.vhd:54]
+INFO: [Synth 8-637] synthesizing blackbox instance 'PE_TOP_inst' of component 'PE_TOP' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/CONV_TOP.vhd:221]
+INFO: [Synth 8-637] synthesizing blackbox instance 'Accumulator_inst' of component 'Acc' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/CONV_TOP.vhd:241]
+INFO: [Synth 8-637] synthesizing blackbox instance 'RELU_inst' of component 'RELU_v1' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/CONV_TOP.vhd:254]
+INFO: [Synth 8-256] done synthesizing module 'CONV_TOP' (0#1) [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/CONV_TOP.vhd:42]
+INFO: [Synth 8-637] synthesizing blackbox instance 'Pooling_inst' of component 'Pooling_TOP' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/TOP.vhd:105]
+INFO: [Synth 8-637] synthesizing blackbox instance 'FC_inst' of component 'FC_TOP' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/TOP.vhd:115]
+INFO: [Synth 8-256] done synthesizing module 'TOP' (0#1) [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/TOP.vhd:46]
+INFO: [Synth 8-3491] module 'TOP_Initialize' declared at 'C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/Top_Initialize.vhd:36' bound to instance 'TOP_Initialize_inst' of component 'TOP_Initialize' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/Top_Top.vhd:119]
+INFO: [Synth 8-638] synthesizing module 'TOP_Initialize' [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/Top_Initialize.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'TOP_Initialize' (0#1) [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/Top_Initialize.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'Top_Top' (0#1) [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/Top_Top.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/TB/tb_TOP_TOP.vhd:47]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/TB/tb_TOP_TOP.vhd:58]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/TB/tb_TOP_TOP.vhd:61]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/TB/tb_TOP_TOP.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'tb_TOP_TOP' (0#1) [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/TB/tb_TOP_TOP.vhd:10]
+WARNING: [Synth 8-6014] Unused sequential element counter_q_reg was removed.  [C:/study/vlsi/try1/EITF35/lab4/lab4.srcs/sources_1/imports/CNN/Convolution/Top_src_vhd/Top_Top.vhd:92]
+WARNING: [Synth 8-7129] Port csn_1 in module RAM_IP_TOP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port csn_2 in module RAM_IP_TOP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port csn_3 in module RAM_IP_TOP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port csn_4 in module RAM_IP_TOP is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1294.137 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1294.137 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1294.137 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1294.137 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/study/vlsi/try1/EITF35/lab4/lab4.gen/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0/dist_mem_gen_0_in_context.xdc] for cell 'uut1/inst_TOP/CONV_TOP_inst/RAM_inst/RAM_1_inst'
+Finished Parsing XDC File [c:/study/vlsi/try1/EITF35/lab4/lab4.gen/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0/dist_mem_gen_0_in_context.xdc] for cell 'uut1/inst_TOP/CONV_TOP_inst/RAM_inst/RAM_1_inst'
+Parsing XDC File [c:/study/vlsi/try1/EITF35/lab4/lab4.gen/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0/dist_mem_gen_0_in_context.xdc] for cell 'uut1/inst_TOP/CONV_TOP_inst/RAM_inst/RAM_2_inst'
+Finished Parsing XDC File [c:/study/vlsi/try1/EITF35/lab4/lab4.gen/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0/dist_mem_gen_0_in_context.xdc] for cell 'uut1/inst_TOP/CONV_TOP_inst/RAM_inst/RAM_2_inst'
+Parsing XDC File [c:/study/vlsi/try1/EITF35/lab4/lab4.gen/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0/dist_mem_gen_0_in_context.xdc] for cell 'uut1/inst_TOP/CONV_TOP_inst/RAM_inst/RAM_3_inst'
+Finished Parsing XDC File [c:/study/vlsi/try1/EITF35/lab4/lab4.gen/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0/dist_mem_gen_0_in_context.xdc] for cell 'uut1/inst_TOP/CONV_TOP_inst/RAM_inst/RAM_3_inst'
+Parsing XDC File [c:/study/vlsi/try1/EITF35/lab4/lab4.gen/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0/dist_mem_gen_0_in_context.xdc] for cell 'uut1/inst_TOP/CONV_TOP_inst/RAM_inst/RAM_4_inst'
+Finished Parsing XDC File [c:/study/vlsi/try1/EITF35/lab4/lab4.gen/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0/dist_mem_gen_0_in_context.xdc] for cell 'uut1/inst_TOP/CONV_TOP_inst/RAM_inst/RAM_4_inst'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1343.742 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1343.742 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for uut1/inst_TOP/CONV_TOP_inst/RAM_inst/RAM_1_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for uut1/inst_TOP/CONV_TOP_inst/RAM_inst/RAM_2_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for uut1/inst_TOP/CONV_TOP_inst/RAM_inst/RAM_3_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for uut1/inst_TOP/CONV_TOP_inst/RAM_inst/RAM_4_inst. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_fin_reg' in module 'TOP_Initialize'
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_fc1_reg' in module 'TOP_Initialize'
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_fc2_reg' in module 'TOP_Initialize'
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_read_reg' in module 'TOP_Initialize'
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_start_reg' in module 'Top_Top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                 counter |                               01 |                               01
+                  finish |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_fin_reg' using encoding 'sequential' in module 'TOP_Initialize'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                                0 |                               00
+                 counter |                                1 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_fc1_reg' using encoding 'sequential' in module 'TOP_Initialize'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                                0 |                               00
+                 counter |                                1 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_fc2_reg' using encoding 'sequential' in module 'TOP_Initialize'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                                0 |                               00
+                  iSTATE |                                1 |                               01
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_read_reg' using encoding 'sequential' in module 'TOP_Initialize'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              001 |                               00
+                 counter |                              010 |                               01
+                  iSTATE |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_start_reg' using encoding 'one-hot' in module 'Top_Top'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    7 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 3     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input   64 Bit        Muxes := 4     
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 5     
+	   3 Input    6 Bit        Muxes := 1     
+	  17 Input    4 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (uut1/FSM_onehot_curr_state_start_reg[2]) is unused and will be removed from module tb_TOP_TOP.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++---------------+-------------+---------------+----------------+
+|Module Name    | RTL Object  | Depth x Width | Implemented As | 
++---------------+-------------+---------------+----------------+
+|TOP_Initialize | rom_mem_fc1 | 64x4          | LUT            | 
+|tb_TOP_TOP     | p_0_out     | 64x4          | LUT            | 
++---------------+-------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (uut1/TOP_Initialize_inst/FSM_sequential_curr_state_fin_reg[1]) is unused and will be removed from module tb_TOP_TOP.
+WARNING: [Synth 8-3332] Sequential element (uut1/TOP_Initialize_inst/FSM_sequential_curr_state_fin_reg[0]) is unused and will be removed from module tb_TOP_TOP.
+WARNING: [Synth 8-3332] Sequential element (uut1/TOP_Initialize_inst/FSM_sequential_curr_state_fc1_reg) is unused and will be removed from module tb_TOP_TOP.
+WARNING: [Synth 8-3332] Sequential element (uut1/TOP_Initialize_inst/FSM_sequential_curr_state_fc2_reg) is unused and will be removed from module tb_TOP_TOP.
+WARNING: [Synth 8-3332] Sequential element (uut1/TOP_Initialize_inst/FSM_sequential_curr_state_read_reg) is unused and will be removed from module tb_TOP_TOP.
+WARNING: [Synth 8-3332] Sequential element (uut1/FSM_onehot_curr_state_start_reg[1]) is unused and will be removed from module tb_TOP_TOP.
+WARNING: [Synth 8-3332] Sequential element (uut1/FSM_onehot_curr_state_start_reg[0]) is unused and will be removed from module tb_TOP_TOP.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4649] Removing BlackBox instance \uut1/inst_TOP/FC_inst  of module FC_TOP_bbox_5 having unconnected or no output ports
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------+----------+
+|      |BlackBox name   |Instances |
++------+----------------+----------+
+|1     |Pooling_TOP     |         1|
+|2     |CONV_Controller |         1|
+|3     |PE_TOP          |         1|
+|4     |Acc             |         1|
+|5     |RELU_v1         |         1|
+|6     |dist_mem_gen_0  |         4|
++------+----------------+----------+
+
+Report Cell Usage: 
++------+---------------------+------+
+|      |Cell                 |Count |
++------+---------------------+------+
+|1     |Acc_bbox             |     1|
+|2     |CONV_Controller_bbox |     1|
+|3     |PE_TOP_bbox          |     1|
+|4     |Pooling_TOP_bbox     |     1|
+|5     |RELU_v1_bbox         |     1|
+|6     |dist_mem_gen         |     1|
+|7     |dist_mem_gen_0       |     3|
+|10    |LUT6                 |   260|
++------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1343.742 ; gain = 49.605
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 1343.742 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1343.742 ; gain = 49.605
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1343.742 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1343.742 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: c9ba991d
+INFO: [Common 17-83] Releasing license: Synthesis
+52 Infos, 18 Warnings, 0 Critical Warnings and 6 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1343.742 ; gain = 49.605
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+
+    while executing
+"synth_design -top tb_TOP_TOP -part xc7a100tcsg324-1"
+    (file "tb_TOP_TOP.tcl" line 128)
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 24 15:50:56 2022...

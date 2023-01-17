@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Sep 24 15:50:20 2022
+# Process ID: 1904
+# Current directory: C:/study/vlsi/try1/EITF35/lab4/lab4.runs/synth_1
+# Command line: vivado.exe -log tb_TOP_TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_TOP_TOP.tcl
+# Log file: C:/study/vlsi/try1/EITF35/lab4/lab4.runs/synth_1/tb_TOP_TOP.vds
+# Journal file: C:/study/vlsi/try1/EITF35/lab4/lab4.runs/synth_1\vivado.jou
+# Running On: DESKTOP-0KTBA50, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16827 MB
+#-----------------------------------------------------------
+source tb_TOP_TOP.tcl -notrace

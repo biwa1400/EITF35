@@ -1,2 +1,15 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/study/vlsi/try1/EITF35/lab2/LAB2.srcs/sources_1/new/edge_detector.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'edge_detector'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/study/vlsi/try1/EITF35/lab2/LAB2.srcs/sources_1/new/keyboard_ctrl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'keyboard_ctrl'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/study/vlsi/try1/EITF35/lab2/LAB2.srcs/sources_1/new/segment_driver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'segment_driver'
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/study/vlsi/try1/EITF35/lab2/LAB2.srcs/sources_1/new/segment_driver.vhd:60]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/study/vlsi/try1/EITF35/lab2/LAB2.srcs/sources_1/new/segment_driver.vhd:61]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/study/vlsi/try1/EITF35/lab2/LAB2.srcs/sources_1/new/segment_driver.vhd:62]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/study/vlsi/try1/EITF35/lab2/LAB2.srcs/sources_1/new/segment_driver.vhd:63]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/study/vlsi/try1/EITF35/lab2/LAB2.srcs/sources_1/new/segment_driver.vhd:64]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/study/vlsi/try1/EITF35/lab2/LAB2.srcs/sources_1/new/segment_driver.vhd:65]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/study/vlsi/try1/EITF35/lab2/LAB2.srcs/sources_1/new/segment_driver.vhd:66]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/study/vlsi/try1/EITF35/lab2/LAB2.srcs/sources_1/new/segment_driver.vhd:67]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/study/vlsi/try1/EITF35/lab2/LAB2.srcs/sources_1/new/segment_driver.vhd:68]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/study/vlsi/try1/EITF35/lab2/LAB2.srcs/sources_1/new/segment_driver.vhd:69]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/study/vlsi/try1/EITF35/lab2/LAB2.srcs/sources_1/new/segment_driver.vhd:70]

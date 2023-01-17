@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Oct 28 13:51:07 2022
+# Process ID: 1820
+# Current directory: C:/study/vlsi/try1/EITF35/lab4/lab4.runs/dist_mem_gen_1_synth_1
+# Command line: vivado.exe -log dist_mem_gen_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dist_mem_gen_1.tcl
+# Log file: C:/study/vlsi/try1/EITF35/lab4/lab4.runs/dist_mem_gen_1_synth_1/dist_mem_gen_1.vds
+# Journal file: C:/study/vlsi/try1/EITF35/lab4/lab4.runs/dist_mem_gen_1_synth_1\vivado.jou
+# Running On: DESKTOP-0KTBA50, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16827 MB
+#-----------------------------------------------------------
+source dist_mem_gen_1.tcl -notrace

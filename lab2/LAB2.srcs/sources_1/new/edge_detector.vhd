@@ -25,19 +25,19 @@ end edge_detector;
 
 
 architecture edge_detector_arch of edge_detector is
-    signal kb_clk_sync_edge_frontshot,kb_clk_sync_edge_backshot : std_logic;
+    signal kb_clk_sync_edge_lead,kb_clk_sync_edge_behind : std_logic;
 begin
     process(clk,rst_n) -- process for kb_data_sync
         begin
             if rst_n = '0' then
-                kb_clk_sync_edge_frontshot <= '0';
-                kb_clk_sync_edge_backshot <= '1';
+                kb_clk_sync_edge_lead <= '0';
+                kb_clk_sync_edge_behind <= '0';
             elsif rising_edge(clk) then
-                kb_clk_sync_edge_backshot <= kb_clk_sync;
-                kb_clk_sync_edge_frontshot <= kb_clk_sync_edge_backshot;
+                kb_clk_sync_edge_lead <= kb_clk_sync;
+                kb_clk_sync_edge_behind <= kb_clk_sync_edge_lead;
             end if;
     end process;
     
     -- falling edge
-    edge_found <= kb_clk_sync_edge_frontshot and (not kb_clk_sync_edge_backshot);
+    edge_found <= kb_clk_sync_edge_behind and (not kb_clk_sync_edge_lead);
 end edge_detector_arch;

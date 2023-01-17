@@ -1,0 +1,19 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab5.srcs/sources_1/imports/new/Accumulator_DABIN.vhd" \
+"../../../../lab5.srcs/sources_1/imports/Top_src_vhd/CONV_TOP.vhd" \
+"../../../../lab5.srcs/sources_1/imports/new/CONV_controller_DABIN.vhd" \
+"../../../../lab5.srcs/sources_1/imports/new/FC_DABIN.vhd" \
+"../../../../lab5.srcs/sources_1/imports/new/PE_DABIN.vhd" \
+"../../../../lab5.srcs/sources_1/imports/new/PE_top_DABIN.vhd" \
+"../../../../lab5.srcs/sources_1/imports/new/Pooling_DABIN.vhd" \
+"../../../../lab5.srcs/sources_1/imports/RAM_IP_src/RAM_IP_TOP.vhd" \
+"../../../../lab5.srcs/sources_1/imports/new/RELU_DABIN.vhd" \
+"../../../../lab5.srcs/sources_1/imports/Top_src_vhd/TOP.vhd" \
+"../../../../lab5.srcs/sources_1/imports/Top_src_vhd/Top_Initialize.vhd" \
+"../../../../lab5.srcs/sources_1/imports/Top_src_vhd/Top_Top.vhd" \
+"../../../../lab5.srcs/sources_1/imports/new/fc_mul_add.vhd" \
+"../../../../lab5.srcs/sim_1/imports/TB/tb_TOP_TOP.vhd" \
+
+# Do not sort compile order
+nosort

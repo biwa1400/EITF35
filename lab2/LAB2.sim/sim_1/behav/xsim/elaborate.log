@@ -1,6 +1,6 @@
 Vivado Simulator v2022.1
 Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot keyboard_tb_behav xil_defaultlib.keyboard_tb -log elaborate.log 
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot keyboard_tb_behav xil_defaultlib.keyboard_tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -11,8 +11,12 @@ Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
+Compiling architecture segment_driver_arch of entity xil_defaultlib.segment_driver [segment_driver_default]
 Compiling architecture sync_keyboard_arch of entity xil_defaultlib.sync_keyboard [sync_keyboard_default]
 Compiling architecture edge_detector_arch of entity xil_defaultlib.edge_detector [edge_detector_default]
+Compiling architecture convert_scancode_arch of entity xil_defaultlib.convert_scancode [convert_scancode_default]
+Compiling architecture keyboard_ctrl_arch of entity xil_defaultlib.keyboard_ctrl [keyboard_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ps2_decode [ps2_decode_default]
 Compiling architecture keyboard_top_arch of entity xil_defaultlib.keyboard_top [keyboard_top_default]
 Compiling architecture keyboard_tb_arch of entity xil_defaultlib.keyboard_tb
 Built simulation snapshot keyboard_tb_behav

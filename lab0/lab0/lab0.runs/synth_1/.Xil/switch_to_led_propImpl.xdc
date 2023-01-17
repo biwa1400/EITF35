@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:C:/study/vlsi/try1/EITF35/lab0/lab0/lab0.srcs/constrs_1/new/main.xdc rfile:../../../lab0.srcs/constrs_1/new/main.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:14 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U9 [get_ports {switch}]
+set_property src_info {type:XDC file:1 line:66 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T8 [get_ports {led}]

@@ -1,0 +1,23 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/study/vlsi/try1/EITF35/lab5/lab5.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1666962947,verilog,,,,dist_mem_gen_0,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.gen/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v,1666962982,verilog,,C:/study/vlsi/try1/EITF35/lab5/lab5.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,,dist_mem_gen_1,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.gen/sources_1/ip/dist_mem_gen_2/sim/dist_mem_gen_2.v,1666963001,verilog,,C:/study/vlsi/try1/EITF35/lab5/lab5.gen/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v,,dist_mem_gen_2,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.gen/sources_1/ip/dist_mem_gen_3/sim/dist_mem_gen_3.v,1666963020,verilog,,C:/study/vlsi/try1/EITF35/lab5/lab5.gen/sources_1/ip/dist_mem_gen_2/sim/dist_mem_gen_2.v,,dist_mem_gen_3,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.srcs/sim_1/imports/TB/tb_TOP_TOP.vhd,1666787352,vhdl,,,,tb_top_top,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.srcs/sources_1/imports/RAM_IP_src/RAM_IP_TOP.vhd,1664185529,vhdl,,,,ram_ip_top,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.srcs/sources_1/imports/Top_src_vhd/CONV_TOP.vhd,1666963112,vhdl,,,,conv_top,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.srcs/sources_1/imports/Top_src_vhd/TOP.vhd,1666872586,vhdl,,,,top,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.srcs/sources_1/imports/Top_src_vhd/Top_Initialize.vhd,1539675678,vhdl,,,,top_initialize,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.srcs/sources_1/imports/Top_src_vhd/Top_Top.vhd,1666871985,vhdl,,,,top_top,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.srcs/sources_1/imports/new/Accumulator_DABIN.vhd,1666710582,vhdl,,,,accumulator_dabin,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.srcs/sources_1/imports/new/CONV_controller_DABIN.vhd,1666963073,vhdl,,,,conv_controller_dabin,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.srcs/sources_1/imports/new/FC_DABIN.vhd,1666771691,vhdl,,,,fc_dabin,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.srcs/sources_1/imports/new/PE_DABIN.vhd,1666871749,vhdl,,,,pe_dabin,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.srcs/sources_1/imports/new/PE_top_DABIN.vhd,1665390743,vhdl,,,,pe_top_dabin,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.srcs/sources_1/imports/new/Pooling_DABIN.vhd,1666871795,vhdl,,,,pooling_dabin,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.srcs/sources_1/imports/new/RELU_DABIN.vhd,1665342440,vhdl,,,,relu_dabin,,,,,,,,
+C:/study/vlsi/try1/EITF35/lab5/lab5.srcs/sources_1/imports/new/fc_mul_add.vhd,1666871902,vhdl,,,,fc_mul_add,,,,,,,,

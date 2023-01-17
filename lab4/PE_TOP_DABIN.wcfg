@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_TOP_TOP_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_TOP_TOP" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="92.596247 us"></ZoomEndTime>
+      <Cursor1Time time="150.095100 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="213"></NameColumnWidth>
+      <ValueColumnWidth column_width="99"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/tb_TOP_TOP/uut1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP_TOP/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP_TOP/uut1/start_ext" type="logic">
+      <obj_property name="ElementShortName">start_ext</obj_property>
+      <obj_property name="ObjectShortName">start_ext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP_TOP/uut1/valid_output_ext" type="logic">
+      <obj_property name="ElementShortName">valid_output_ext</obj_property>
+      <obj_property name="ObjectShortName">valid_output_ext</obj_property>
+   </wvobject>
+   <wvobject fp_name="group125" type="group">
+      <obj_property name="label">example</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_inst/count_PE" type="array">
+         <obj_property name="ElementShortName">count_PE[7:0]</obj_property>
+         <obj_property name="ObjectShortName">count_PE[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_inst/start_acc" type="logic">
+         <obj_property name="ElementShortName">start_acc</obj_property>
+         <obj_property name="ObjectShortName">start_acc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_inst/ifmap_1" type="array">
+         <obj_property name="ElementShortName">ifmap_1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ifmap_1[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_inst/ifmap_2" type="array">
+         <obj_property name="ElementShortName">ifmap_2[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ifmap_2[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_inst/ifmap_3" type="array">
+         <obj_property name="ElementShortName">ifmap_3[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ifmap_3[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_inst/ifmap_4" type="array">
+         <obj_property name="ElementShortName">ifmap_4[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ifmap_4[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_inst/Psum_1" type="array">
+         <obj_property name="ElementShortName">Psum_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Psum_1[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_inst/Psum_2" type="array">
+         <obj_property name="ElementShortName">Psum_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Psum_2[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_inst/Psum_3" type="array">
+         <obj_property name="ElementShortName">Psum_3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Psum_3[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_inst/Psum_4" type="array">
+         <obj_property name="ElementShortName">Psum_4[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Psum_4[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group126" type="group">
+      <obj_property name="label">DABIN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_DABIN_inst/start_acc" type="logic">
+         <obj_property name="ElementShortName">start_acc</obj_property>
+         <obj_property name="ObjectShortName">start_acc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_DABIN_inst/start" type="logic">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_DABIN_inst/finish" type="logic">
+         <obj_property name="ElementShortName">finish</obj_property>
+         <obj_property name="ObjectShortName">finish</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_DABIN_inst/PE1_DABIN_inst/current_state" type="other">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_DABIN_inst/Psum_1" type="array">
+         <obj_property name="ElementShortName">Psum_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Psum_1[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_DABIN_inst/Psum_2" type="array">
+         <obj_property name="ElementShortName">Psum_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Psum_2[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_DABIN_inst/Psum_3" type="array">
+         <obj_property name="ElementShortName">Psum_3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Psum_3[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/PE_TOP_DABIN_inst/Psum_4" type="array">
+         <obj_property name="ElementShortName">Psum_4[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Psum_4[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

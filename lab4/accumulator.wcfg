@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_TOP_TOP_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_TOP_TOP" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="127,471.840 ns"></ZoomStartTime>
+      <ZoomEndTime time="128,788.841 ns"></ZoomEndTime>
+      <Cursor1Time time="127,746.840 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="213"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wave_markers>
+      <marker time="117665100" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_TOP_TOP/uut1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP_TOP/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP_TOP/uut1/start_ext" type="logic">
+      <obj_property name="ElementShortName">start_ext</obj_property>
+      <obj_property name="ObjectShortName">start_ext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP_TOP/uut1/valid_output_ext" type="logic">
+      <obj_property name="ElementShortName">valid_output_ext</obj_property>
+      <obj_property name="ObjectShortName">valid_output_ext</obj_property>
+   </wvobject>
+   <wvobject fp_name="group125" type="group">
+      <obj_property name="label">example</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Accumulator_inst/start" type="logic">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Accumulator_inst/Psum1" type="array">
+         <obj_property name="ElementShortName">Psum1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Psum1[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Accumulator_inst/Psum2" type="array">
+         <obj_property name="ElementShortName">Psum2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Psum2[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Accumulator_inst/Psum3" type="array">
+         <obj_property name="ElementShortName">Psum3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Psum3[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Accumulator_inst/Psum4" type="array">
+         <obj_property name="ElementShortName">Psum4[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Psum4[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Accumulator_inst/ofmap" type="array">
+         <obj_property name="ElementShortName">ofmap[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ofmap[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Accumulator_inst/valid_ofmap" type="logic">
+         <obj_property name="ElementShortName">valid_ofmap</obj_property>
+         <obj_property name="ObjectShortName">valid_ofmap</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group126" type="group">
+      <obj_property name="label">DABIN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Accumulator_DABIN_inst/ofmap" type="array">
+         <obj_property name="ElementShortName">ofmap[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ofmap[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_TOP_TOP/uut1/inst_TOP/CONV_TOP_inst/Accumulator_DABIN_inst/valid_ofmap" type="logic">
+         <obj_property name="ElementShortName">valid_ofmap</obj_property>
+         <obj_property name="ObjectShortName">valid_ofmap</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

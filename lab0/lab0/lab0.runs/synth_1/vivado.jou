@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Sep  8 15:56:03 2022
+# Process ID: 15304
+# Current directory: C:/study/vlsi/try1/EITF35/lab0/lab0/lab0.runs/synth_1
+# Command line: vivado.exe -log switch_to_led.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source switch_to_led.tcl
+# Log file: C:/study/vlsi/try1/EITF35/lab0/lab0/lab0.runs/synth_1/switch_to_led.vds
+# Journal file: C:/study/vlsi/try1/EITF35/lab0/lab0/lab0.runs/synth_1\vivado.jou
+# Running On: DESKTOP-0KTBA50, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16827 MB
+#-----------------------------------------------------------
+source switch_to_led.tcl -notrace
